@@ -15,7 +15,6 @@
   "plugins": ["react", "prettier"],
   "rules": {
     "prettier/prettier": "warn",
-    "some-eslint-rule": "warn",
     "react/react-in-jsx-scope": "off"
   }
 }
