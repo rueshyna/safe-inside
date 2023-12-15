@@ -4,7 +4,7 @@ export const OUTPUT_PATH = "../chart/src/data"
 export const TEMP_FOLDER_PATH = "../tmp"
 export const OVERWRITE = true;
 
-export const VERSIONS = {
+export const VERSIONS : Record<string, string> = {
     "471411811": "0.0.6",
     "-1526481454": "0.0.8",
     "735333822": "0.0.9",

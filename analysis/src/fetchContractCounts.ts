@@ -1,7 +1,7 @@
 import { TZKT_API, VERSIONS, OUTPUT_PATH, OVERWRITE } from './context/config';
 import * as fs from 'fs';
-import fetch from 'node-fetch';
 import * as path from 'path';
+import { fetchWithRetry } from './util';
 
 
 const sleep = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
@@ -14,25 +14,8 @@ const fetchContractCounts = async (hashes: Record<string, string>, query: string
     for (const [hash, version] of Object.entries(hashes)) {
         let attempts = 0;
 
-        while (attempts < maxRetries) {
-            try {
-                const response = await fetch(`${TZKT_API}/contracts/count?codeHash=${hash}${query}`);
-                if (!response.ok) {
-                    throw new Error(`API call failed: ${response.status}`);
-                }
-                const count = await response.json();
-                counts[version] = Number(count);
-                break; // Break the loop if fetch was successful
-            } catch (error) {
-                console.error(`Retry attempt ${attempts} for hash ${hash}:`, error);
-
-                if (attempts < maxRetries) {
-                    await sleep(5000); // Wait for 5 seconds before retrying
-                } else {
-                    counts[version] = 0; // Set to 0 or handle accordingly if all retries fail
-                }
-            }
-        }
+        const count = await fetchWithRetry(`${TZKT_API}/contracts/count?codeHash=${hash}${query}`);
+        counts[version] = Number(count);
     }
 
     return counts;

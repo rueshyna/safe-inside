@@ -1,32 +1,12 @@
 import { TEMP_FOLDER_PATH, TZKT_API, VERSIONS } from './context/config';
-
-import fetch from 'node-fetch';
+import { fetchWithRetry } from './util';
 import * as fs from 'fs';
 import * as path from 'path';
 
-const sleep = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
-
-const fetchWithRetry = async (url: string, retries: number = 5): Promise<any> => {
-    console.log("URL", url)
-    for (let i = 0; i < retries; i++) {
-        try {
-            const response = await fetch(url);
-            if (!response.ok) {
-                throw new Error(`HTTP error! status: ${response.status}`);
-            }
-            return await response.json();
-        } catch (error) {
-            console.log(`Attempt ${i + 1} failed; retrying in 5 seconds...`);
-            await sleep(5000);
-        }
-    }
-    throw new Error('Max retries reached.');
-};
-
 const allVersion = () => Object.keys(VERSIONS).join(",");
+const tempFolderPath = path.join(TEMP_FOLDER_PATH, 'contracts');
 
 const fetchContracts = async () => {
-    const tempFolderPath = path.join(TEMP_FOLDER_PATH, 'contracts');
     if (!fs.existsSync(tempFolderPath)) {
         fs.mkdirSync(tempFolderPath, { recursive: true });
     }
@@ -53,3 +33,5 @@ const fetchContracts = async () => {
 };
 
 fetchContracts().catch(console.error);
+console.log('Finish fetching all contracts');
+
