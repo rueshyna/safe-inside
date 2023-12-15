@@ -1,4 +1,4 @@
-import { TEMP_CONTRACTS_FOLDER_PATH, TZKT_API, VERSIONS } from './context/config';
+import { TEMP_FOLDER_PATH, TZKT_API, VERSIONS } from './context/config';
 
 import fetch from 'node-fetch';
 import * as fs from 'fs';
@@ -26,7 +26,7 @@ const fetchWithRetry = async (url: string, retries: number = 5): Promise<any> =>
 const allVersion = () => Object.keys(VERSIONS).join(",");
 
 const fetchContracts = async () => {
-    const tempFolderPath = path.join(TEMP_CONTRACTS_FOLDER_PATH, 'temp');
+    const tempFolderPath = path.join(TEMP_FOLDER_PATH, 'contracts');
     if (!fs.existsSync(tempFolderPath)) {
         fs.mkdirSync(tempFolderPath, { recursive: true });
     }
