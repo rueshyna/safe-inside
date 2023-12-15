@@ -1,6 +1,7 @@
 export const DEFAULT_RPC = "https://tezos.marigold.dev";
 export const TZKT_API = "https://api.tzkt.io/v1";
 export const OUTPUT_PATH = "../chart/src/data"
+export const OVERWRITE = true;
 
 export const VERSIONS = {
     "471411811": "0.0.6",
