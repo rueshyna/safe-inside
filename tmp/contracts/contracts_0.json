@@ -41,7 +41,96 @@
       "threshold": "1",
       "effective_period": "172800",
       "proposal_counter": "7"
-    }
+    },
+    "tzsafe_version": "0.3.3",
+    "tokens": [
+      {
+        "id": 877733378785281,
+        "account": {
+          "address": "KT1XVANkUM3uNrSy9jmie9F6t1DCtAG1AMUx"
+        },
+        "token": {
+          "id": 861907630161921,
+          "contract": {
+            "address": "KT1R8Cbs2mTyaeS7X917enHSXYU8P7s4PuYh"
+          },
+          "tokenId": "1",
+          "standard": "fa2",
+          "totalSupply": "10000000000000",
+          "metadata": {
+            "name": "SP Crystal Shard",
+            "symbol": "SHRD",
+            "decimals": "6",
+            "displayUri": "ipfs://QmRs7bdQUam2YKHtfdD6nzkbsiR4x2xPpHucb87euEf67z",
+            "artifactUri": "ipfs://QmRs7bdQUam2YKHtfdD6nzkbsiR4x2xPpHucb87euEf67z",
+            "thumbnailUri": "ipfs://QmRs7bdQUam2YKHtfdD6nzkbsiR4x2xPpHucb87euEf67z"
+          }
+        },
+        "balance": "9500031000000",
+        "transfersCount": 3,
+        "firstLevel": 4736284,
+        "firstTime": "2023-12-12T16:48:40Z",
+        "lastLevel": 4736308,
+        "lastTime": "2023-12-12T16:55:03Z"
+      },
+      {
+        "id": 878168407801857,
+        "account": {
+          "address": "KT1XVANkUM3uNrSy9jmie9F6t1DCtAG1AMUx"
+        },
+        "token": {
+          "id": 878146487320577,
+          "contract": {
+            "address": "KT1GtMSYTYrJs2jVVgoYgLXs4Fyb7avcLarY"
+          },
+          "tokenId": "0",
+          "standard": "fa2",
+          "totalSupply": "4007000000000000000000",
+          "metadata": {
+            "name": "Liquified Ottez",
+            "symbol": "lqOTTZ",
+            "decimals": "18",
+            "thumbnailUri": "ipfs://QmZqohe5u6yhNKpH8PQJ6a5LCe6keGYuf2PkPE7z84KULr"
+          }
+        },
+        "balance": "190000000000000000",
+        "transfersCount": 8,
+        "firstLevel": 4737936,
+        "firstTime": "2023-12-12T23:43:58Z",
+        "lastLevel": 4747963,
+        "lastTime": "2023-12-14T17:50:55Z"
+      },
+      {
+        "id": 878186852253697,
+        "account": {
+          "address": "KT1XVANkUM3uNrSy9jmie9F6t1DCtAG1AMUx"
+        },
+        "token": {
+          "id": 878177198014465,
+          "contract": {
+            "address": "KT1FCN8JPd2XegqnRm2N5ahwohe5oBnHXjaQ"
+          },
+          "tokenId": "0",
+          "standard": "fa2",
+          "totalSupply": "4200000000000000000000",
+          "metadata": {
+            "name": "Liquified Tezzardz",
+            "symbol": "lqTZZD",
+            "decimals": "18",
+            "thumbnailUri": "ipfs://QmTDitCfKnr6AwXj4UH8o4G7dXg1a5oCjE3D6TA1p9kPQD"
+          }
+        },
+        "balance": "140000000000000000",
+        "transfersCount": 5,
+        "firstLevel": 4738009,
+        "firstTime": "2023-12-13T00:02:13Z",
+        "lastLevel": 4749696,
+        "lastTime": "2023-12-15T01:05:42Z"
+      }
+    ],
+    "token_count": 3,
+    "owner_count": 1,
+    "threshold_percentage": 1
   },
   {
     "id": 4767806,
@@ -94,7 +183,166 @@
       "threshold": "2",
       "effective_period": "86400",
       "proposal_counter": "47"
-    }
+    },
+    "tzsafe_version": "0.1.1",
+    "tokens": [
+      {
+        "id": 747964749316097,
+        "account": {
+          "address": "KT1KAr9hnFEEFXmJ1EUS4ZYMy9G8eK7bHbQM"
+        },
+        "token": {
+          "id": 64296253915137,
+          "contract": {
+            "alias": "YOU Governance",
+            "address": "KT1Xobej4mc6XgEjDoJoHtTKgbD1ELMvcQuL"
+          },
+          "tokenId": "0",
+          "standard": "fa2",
+          "totalSupply": "3578509660628145981",
+          "metadata": {
+            "name": "youves YOU Governance",
+            "symbol": "YOU",
+            "decimals": "12",
+            "thumbnailUri": "ipfs://QmYAJaJvEJuwvMEgRbBoAUKrTxRTT22nCC9RuY7Jy4L4Gc",
+            "shouldPreferSymbol": true
+          }
+        },
+        "balance": "1000000000000",
+        "transfersCount": 1,
+        "firstLevel": 4228054,
+        "firstTime": "2023-09-14T09:29:03Z",
+        "lastLevel": 4228054,
+        "lastTime": "2023-09-14T09:29:03Z"
+      },
+      {
+        "id": 758998681780225,
+        "account": {
+          "address": "KT1KAr9hnFEEFXmJ1EUS4ZYMy9G8eK7bHbQM"
+        },
+        "token": {
+          "id": 712927911870465,
+          "contract": {
+            "alias": "Youves Synthetic Asset",
+            "address": "KT1XRPEPXbZK25r3Htzp2o1x7xdMMmfocKNW"
+          },
+          "tokenId": "4",
+          "standard": "fa2",
+          "totalSupply": "14021523514465",
+          "metadata": {
+            "name": "youves XAU",
+            "symbol": "uXAU",
+            "decimals": "12",
+            "thumbnailUri": "ipfs://QmdsFiZoqM1fHmeymX4bVdMm2KejRXoykZTE9tXRTo7BW8",
+            "isTransferable": true,
+            "isBooleanAmount": false,
+            "shouldPreferSymbol": true
+          }
+        },
+        "balance": "33",
+        "transfersCount": 7,
+        "firstLevel": 4271014,
+        "firstTime": "2023-09-21T21:58:13Z",
+        "lastLevel": 4587223,
+        "lastTime": "2023-11-16T08:09:14Z"
+      },
+      {
+        "id": 761927296876545,
+        "account": {
+          "address": "KT1KAr9hnFEEFXmJ1EUS4ZYMy9G8eK7bHbQM"
+        },
+        "token": {
+          "id": 260497724145665,
+          "contract": {
+            "alias": "Tether Token",
+            "address": "KT1XnTn74bUtxHfDtBmm2bGZAQfhPbvKWR8o"
+          },
+          "tokenId": "0",
+          "standard": "fa2",
+          "totalSupply": "141000001000000",
+          "metadata": {
+            "name": "Tether USD",
+            "symbol": "USDt",
+            "decimals": "6",
+            "thumbnailUri": "ipfs://QmRymVGWEudMfLrbjaEiXxngCRTDgWCsscjQMwizy4ZJjX",
+            "isTransferable": true,
+            "isBooleanAmount": false,
+            "shouldPreferSymbol": true
+          }
+        },
+        "balance": "0",
+        "transfersCount": 2,
+        "firstLevel": 4282139,
+        "firstTime": "2023-09-23T21:09:42Z",
+        "lastLevel": 4290173,
+        "lastTime": "2023-09-25T06:54:41Z"
+      },
+      {
+        "id": 802597992660993,
+        "account": {
+          "address": "KT1KAr9hnFEEFXmJ1EUS4ZYMy9G8eK7bHbQM"
+        },
+        "token": {
+          "id": 459308217139201,
+          "contract": {
+            "alias": "Youves Synthetic Asset",
+            "address": "KT1XRPEPXbZK25r3Htzp2o1x7xdMMmfocKNW"
+          },
+          "tokenId": "3",
+          "standard": "fa2",
+          "totalSupply": "469904373731418691",
+          "metadata": {
+            "name": "youves uXTZ",
+            "symbol": "uXTZ",
+            "decimals": "12",
+            "thumbnailUri": "ipfs://QmZe16xqundEf6JcRuct6gmoUE7wQM5cNHWPLrZhUY3v6Z",
+            "isTransferable": true,
+            "isBooleanAmount": false,
+            "shouldPreferSymbol": true
+          }
+        },
+        "balance": "5447097076635",
+        "transfersCount": 51,
+        "firstLevel": 4440007,
+        "firstTime": "2023-10-21T12:59:24Z",
+        "lastLevel": 4444839,
+        "lastTime": "2023-10-22T09:15:04Z"
+      },
+      {
+        "id": 803798213722113,
+        "account": {
+          "address": "KT1KAr9hnFEEFXmJ1EUS4ZYMy9G8eK7bHbQM"
+        },
+        "token": {
+          "id": 676275312132097,
+          "contract": {
+            "alias": "Youves yield XTZ legacy",
+            "address": "KT1NtfNBPAo8UrcMexMyrKR5WCHb3VRiocvx"
+          },
+          "tokenId": "0",
+          "standard": "fa1.2",
+          "totalSupply": "214918456062266769",
+          "metadata": {
+            "name": "youves yield XTZ",
+            "symbol": "yyXTZ",
+            "decimals": "12",
+            "thumbnailUri": "ipfs://QmXoHoi4P8u2ERTVg7rZrEs9Br1VvXcY37ss2ySvfeR9X9",
+            "isTransferable": true,
+            "isBooleanAmount": false,
+            "shouldPreferSymbol": true
+          }
+        },
+        "balance": "8333333",
+        "transfersCount": 2,
+        "firstLevel": 4444876,
+        "firstTime": "2023-10-22T09:24:19Z",
+        "lastLevel": 4555066,
+        "lastTime": "2023-11-10T16:55:53Z"
+      }
+    ],
+    "token_count": 5,
+    "owner_count": 4,
+    "threshold_percentage": 0.5
   },
   {
     "id": 4950934,
@@ -139,7 +387,12 @@
       "threshold": "2",
       "effective_period": "33609600",
       "proposal_counter": "3"
-    }
+    },
+    "tzsafe_version": "0.3.3",
+    "tokens": [],
+    "token_count": 0,
+    "owner_count": 2,
+    "threshold_percentage": 1
   },
   {
     "id": 4920567,
@@ -183,7 +436,84 @@
       "threshold": "1",
       "effective_period": "7200",
       "proposal_counter": "0"
-    }
+    },
+    "tzsafe_version": "0.3.3",
+    "tokens": [
+      {
+        "id": 861262467563521,
+        "account": {
+          "address": "KT19531VK6gHguZagPzcowJGi4uMawVt62Nb"
+        },
+        "token": {
+          "id": 311306267656193,
+          "contract": {
+            "alias": "FXHASH GENTK v2",
+            "address": "KT1U6EHmNxJTkvaWJ4ThczG4FSDaHC21ssvi"
+          },
+          "tokenId": "1121204",
+          "standard": "fa2",
+          "totalSupply": "1",
+          "metadata": {
+            "name": "Crop Circles #19",
+            "tags": [
+              "crop",
+              "circles",
+              "alien",
+              "p5.js"
+            ],
+            "symbol": "GENTK",
+            "version": "0.2",
+            "decimals": "0",
+            "attributes": true,
+            "displayUri": "ipfs://QmPqG3EqscDmM41adysunWKe2qtajZ6Wu6SjBvwrVswpbK",
+            "artifactUri": "ipfs://QmUyWBLYPYXHw76hiegQMNPjBduSeHuNAX1NTpp81h1PvC?fxhash=oowoSTBb9gWfk1GWF9d6aFL4vto65PA8H24wKq76qVE1cBmjhd4",
+            "description": "A crop circle is a pattern created by flattening a crop. The number of reports of crop circles has substantially increased since the 1970s. There has been scant scientific study of them. Circles are not distributed randomly across the landscape but appear near roads, areas of medium to dense population and cultural heritage monuments.\n\nThey are made by aliens.\n\nHeightmap drawn with p5.js lines.\n\n* Variations:\n\n- Inner design\n- Outer design\n- Crop color\n- Field cuts\n- Rotation\n- Zoom",
+            "generatorUri": "ipfs://QmUyWBLYPYXHw76hiegQMNPjBduSeHuNAX1NTpp81h1PvC",
+            "thumbnailUri": "ipfs://QmPa96Lo4zt6aJNoAiDq41Vre7rVfdkHEQuZpxmtBf6SyE",
+            "iterationHash": "oowoSTBb9gWfk1GWF9d6aFL4vto65PA8H24wKq76qVE1cBmjhd4",
+            "authenticityHash": "152c410534a8e55d49de3b7c3f4db53a995f27c1c4cd25546451ac93d07eddc9"
+          }
+        },
+        "balance": "1",
+        "transfersCount": 1,
+        "firstLevel": 4672385,
+        "firstTime": "2023-12-01T09:59:51Z",
+        "lastLevel": 4672385,
+        "lastTime": "2023-12-01T09:59:51Z"
+      },
+      {
+        "id": 861262468612097,
+        "account": {
+          "address": "KT19531VK6gHguZagPzcowJGi4uMawVt62Nb"
+        },
+        "token": {
+          "id": 160030218256385,
+          "contract": {
+            "alias": "wXTZ objkt.com",
+            "address": "KT1TjnZYs5CGLbmV6yuW169P8Pnr9BiVwwjz"
+          },
+          "tokenId": "0",
+          "standard": "fa1.2",
+          "totalSupply": "225694583705",
+          "metadata": {
+            "name": "objkt.com wrapped Tezos",
+            "symbol": "oXTZ",
+            "decimals": "6",
+            "thumbnailUri": "ipfs://QmYJzMTxBbYHLLNMRWvvtFaTofUPyqgrEhDcjjFonCgNGS",
+            "shouldPreferSymbol": "true"
+          }
+        },
+        "balance": "2000000",
+        "transfersCount": 1,
+        "firstLevel": 4672385,
+        "firstTime": "2023-12-01T09:59:51Z",
+        "lastLevel": 4672385,
+        "lastTime": "2023-12-01T09:59:51Z"
+      }
+    ],
+    "token_count": 2,
+    "owner_count": 1,
+    "threshold_percentage": 1
   },
   {
     "id": 4917419,
@@ -227,7 +557,12 @@
       "threshold": "1",
       "effective_period": "86400",
       "proposal_counter": "0"
-    }
+    },
+    "tzsafe_version": "0.3.2",
+    "tokens": [],
+    "token_count": 0,
+    "owner_count": 1,
+    "threshold_percentage": 1
   },
   {
     "id": 4911608,
@@ -271,7 +606,12 @@
       "threshold": "1",
       "effective_period": "86400",
       "proposal_counter": "0"
-    }
+    },
+    "tzsafe_version": "0.3.2",
+    "tokens": [],
+    "token_count": 0,
+    "owner_count": 1,
+    "threshold_percentage": 1
   },
   {
     "id": 4869965,
@@ -328,7 +668,12 @@
       "threshold": "4",
       "effective_period": "432000",
       "proposal_counter": "3"
-    }
+    },
+    "tzsafe_version": "0.3.1",
+    "tokens": [],
+    "token_count": 0,
+    "owner_count": 7,
+    "threshold_percentage": 0.5714285714285714
   },
   {
     "id": 4857044,
@@ -371,7 +716,12 @@
       "threshold": "1",
       "effective_period": "86400",
       "proposal_counter": "2"
-    }
+    },
+    "tzsafe_version": "0.1.1",
+    "tokens": [],
+    "token_count": 0,
+    "owner_count": 1,
+    "threshold_percentage": 1
   },
   {
     "id": 4860177,
@@ -414,7 +764,44 @@
       "threshold": "1",
       "effective_period": "86400",
       "proposal_counter": "1"
-    }
+    },
+    "tzsafe_version": "0.1.1",
+    "tokens": [
+      {
+        "id": 802713751257089,
+        "account": {
+          "address": "KT1XnVGfJnDvYSwn286EWs59jog4h4Gahgpj"
+        },
+        "token": {
+          "id": 459308217139201,
+          "contract": {
+            "alias": "Youves Synthetic Asset",
+            "address": "KT1XRPEPXbZK25r3Htzp2o1x7xdMMmfocKNW"
+          },
+          "tokenId": "3",
+          "standard": "fa2",
+          "totalSupply": "469904373731418691",
+          "metadata": {
+            "name": "youves uXTZ",
+            "symbol": "uXTZ",
+            "decimals": "12",
+            "thumbnailUri": "ipfs://QmZe16xqundEf6JcRuct6gmoUE7wQM5cNHWPLrZhUY3v6Z",
+            "isTransferable": true,
+            "isBooleanAmount": false,
+            "shouldPreferSymbol": true
+          }
+        },
+        "balance": "1500000000000",
+        "transfersCount": 6,
+        "firstLevel": 4440463,
+        "firstTime": "2023-10-21T14:54:10Z",
+        "lastLevel": 4440487,
+        "lastTime": "2023-10-21T15:00:10Z"
+      }
+    ],
+    "token_count": 1,
+    "owner_count": 1,
+    "threshold_percentage": 1
   },
   {
     "id": 4857048,
@@ -457,7 +844,12 @@
       "threshold": "1",
       "effective_period": "86400",
       "proposal_counter": "2"
-    }
+    },
+    "tzsafe_version": "0.1.1",
+    "tokens": [],
+    "token_count": 0,
+    "owner_count": 1,
+    "threshold_percentage": 1
   },
   {
     "id": 4857040,
@@ -500,7 +892,44 @@
       "threshold": "1",
       "effective_period": "86400",
       "proposal_counter": "1"
-    }
+    },
+    "tzsafe_version": "0.1.1",
+    "tokens": [
+      {
+        "id": 799402159505409,
+        "account": {
+          "address": "KT1JEvniQzpvB69oGf86t4vFtB61HtVmsZ2f"
+        },
+        "token": {
+          "id": 459308217139201,
+          "contract": {
+            "alias": "Youves Synthetic Asset",
+            "address": "KT1XRPEPXbZK25r3Htzp2o1x7xdMMmfocKNW"
+          },
+          "tokenId": "3",
+          "standard": "fa2",
+          "totalSupply": "469904373731418691",
+          "metadata": {
+            "name": "youves uXTZ",
+            "symbol": "uXTZ",
+            "decimals": "12",
+            "thumbnailUri": "ipfs://QmZe16xqundEf6JcRuct6gmoUE7wQM5cNHWPLrZhUY3v6Z",
+            "isTransferable": true,
+            "isBooleanAmount": false,
+            "shouldPreferSymbol": true
+          }
+        },
+        "balance": "1000000000000",
+        "transfersCount": 1,
+        "firstLevel": 4427692,
+        "firstTime": "2023-10-19T09:22:44Z",
+        "lastLevel": 4427692,
+        "lastTime": "2023-10-19T09:22:44Z"
+      }
+    ],
+    "token_count": 1,
+    "owner_count": 1,
+    "threshold_percentage": 1
   },
   {
     "id": 4848044,
@@ -543,7 +972,100 @@
       "threshold": "1",
       "effective_period": "86400",
       "proposal_counter": "2"
-    }
+    },
+    "tzsafe_version": "0.1.1",
+    "tokens": [
+      {
+        "id": 789802674814977,
+        "account": {
+          "address": "KT1ByXxZuug9Be2bXdhW5mbeejfdBg1X276q"
+        },
+        "token": {
+          "id": 789616439328769,
+          "contract": {
+            "alias": "FXHASH contract handling Generative Tokens",
+            "address": "KT1EfsNuqwLAWDd3o4pvfUx1CAh5GMdTrRvr"
+          },
+          "tokenId": "123219",
+          "standard": "fa2",
+          "totalSupply": "1",
+          "metadata": {
+            "name": "Dancing bubbles #76",
+            "tags": [
+              "bubbles",
+              "aquarium",
+              "p5js",
+              "circle",
+              "digitalart",
+              "generative",
+              "design",
+              "color",
+              "reptile"
+            ],
+            "symbol": "GENTK",
+            "version": "0.2",
+            "decimals": "0",
+            "attributes": true,
+            "displayUri": "ipfs://QmTfLLKZ8Bb7gpRLCBUm6Yd6fpR7LavLoPAAXeEx8qFsBK",
+            "artifactUri": "ipfs://QmdNRyqiW3bsxAsRrndpQysR7Exnx3Lv4VTVSWVhcKKfV8/?fxhash=op7HYS8jWzzbNfGKjXQd6pncA9VdSWYSkjTboB8agu6idRgPqZo&fxiteration=76&fxminter=tz1RYHiHWceSA9u1FEpGCfBaH62sk61PXx4z",
+            "description": "Dancing bubbles is a mesmerizing form of visual art that captures bubble beauty and fluidity. It involves creating intricate and vibrant designs using bubbles as generative art.\nThe process begins by mixing a special solution that creates long-lasting and colorful bubbles. I carefully blew these bubbles onto the canvas and let them float and move freely. As the bubbles interact with each other, they create stunning patterns and shapes.\nI manipulated the direction, colors, and movement of the bubbles using live patterns and directed them across the canvas to create dynamic compositions.\nWhen the bubbles merge, they leave a vibrant trail, creating unique textures and patterns on the canvas. The result is a captivating work of art that comes alive with its own fluidity and movement.\nDancing bubbles are visually appealing, but they also evoke joy and playfulness. It captures the fleeting nature of bubbles and reminds us to appreciate beautiful moments that are fleeting yet magical.\nThis art form can be enjoyed in various settings, including galleries, exhibitions, or even live performances in aquariums decorated with colored lights. It's a delightful experience for me and viewers alike, as we watch the creation of ephemeral catches of bubbles that dance before our eyes.\n\nMade by p5.js\ns = save",
+            "generatorUri": "ipfs://QmdNRyqiW3bsxAsRrndpQysR7Exnx3Lv4VTVSWVhcKKfV8",
+            "thumbnailUri": "ipfs://QmRv3nFWiUmPGTntCZhaBjZCD9iemmpRq4wgNpaHAy8fx9",
+            "iterationHash": "op7HYS8jWzzbNfGKjXQd6pncA9VdSWYSkjTboB8agu6idRgPqZo",
+            "snippetVersion": "3.3.0",
+            "authenticityHash": "281982dda92a69935264bd922faf25a3fec6f082f0932e1b4fcf32d7f1ecac73"
+          }
+        },
+        "balance": "0",
+        "transfersCount": 2,
+        "firstLevel": 4389667,
+        "firstTime": "2023-10-12T17:06:48Z",
+        "lastLevel": 4389680,
+        "lastTime": "2023-10-12T17:10:03Z"
+      },
+      {
+        "id": 789880589254657,
+        "account": {
+          "address": "KT1ByXxZuug9Be2bXdhW5mbeejfdBg1X276q"
+        },
+        "token": {
+          "id": 789614759510017,
+          "contract": {
+            "alias": "FXHASH GENTK v2",
+            "address": "KT1U6EHmNxJTkvaWJ4ThczG4FSDaHC21ssvi"
+          },
+          "tokenId": "1607314",
+          "standard": "fa2",
+          "totalSupply": "1",
+          "metadata": {
+            "name": "Hish Hash Mish Mash #30",
+            "tags": [
+              "hash birthday binary hex string"
+            ],
+            "symbol": "GENTK",
+            "version": "0.2",
+            "decimals": "0",
+            "attributes": true,
+            "displayUri": "ipfs://Qmb5jepNc9eVRJ1evwMkXBirSCzgreSDNkeJgA83SUHp9Y",
+            "artifactUri": "ipfs://QmSpwh5aEjQjapLUq4Bs9Ew7yLVxBCaWwdo2rFvTi3D68H/?fxhash=ongMyq5GWXtNjqf3B13fS1ADeQEzmR2khEm1xRmNtYCLrAVzcHH&fxiteration=30&fxminter=tz1RYHiHWceSA9u1FEpGCfBaH62sk61PXx4z",
+            "description": "To celebrate FxHash turning one this week...\n\n25% of primary goes to Processing Foundation\n25% of primary goes to Three.js\n25% of primary goes to Hydra\n\nThe algorithm takes the hash and presents it to the viewer as a string, as binary code and as hex code.\n\nShapes are added to provide composition to each piece.",
+            "generatorUri": "ipfs://QmSpwh5aEjQjapLUq4Bs9Ew7yLVxBCaWwdo2rFvTi3D68H",
+            "thumbnailUri": "ipfs://Qmaj57aDgpAxpCZTNQaQ7oEqYSeFJBWYy95vi6WR6eJoEV",
+            "iterationHash": "ongMyq5GWXtNjqf3B13fS1ADeQEzmR2khEm1xRmNtYCLrAVzcHH",
+            "authenticityHash": "5f08a2c6c15560f945a3dd8d78a36246dfe4c1137d18137a34a4ab929a477ed1"
+          }
+        },
+        "balance": "0",
+        "transfersCount": 2,
+        "firstLevel": 4389976,
+        "firstTime": "2023-10-12T18:25:35Z",
+        "lastLevel": 4389983,
+        "lastTime": "2023-10-12T18:27:20Z"
+      }
+    ],
+    "token_count": 2,
+    "owner_count": 1,
+    "threshold_percentage": 1
   },
   {
     "id": 4847603,
@@ -587,7 +1109,12 @@
       "threshold": "1",
       "effective_period": "1800",
       "proposal_counter": "0"
-    }
+    },
+    "tzsafe_version": "0.1.1",
+    "tokens": [],
+    "token_count": 0,
+    "owner_count": 2,
+    "threshold_percentage": 0.5
   },
   {
     "id": 4819907,
@@ -630,7 +1157,74 @@
       "threshold": "1",
       "effective_period": "86400",
       "proposal_counter": "3"
-    }
+    },
+    "tzsafe_version": "0.1.1",
+    "tokens": [
+      {
+        "id": 770358099574785,
+        "account": {
+          "address": "KT19GUbPwXTbKYns9AGPENW7xdsy8qZAr6PH"
+        },
+        "token": {
+          "id": 770204471656449,
+          "contract": {
+            "alias": "Youves yield TEZ",
+            "address": "KT1NodvAh8uTny1uU35rLAErzkTG66uxKNiM"
+          },
+          "tokenId": "0",
+          "standard": "fa1.2",
+          "totalSupply": "504558327239515936",
+          "metadata": {
+            "name": "youves yield TEZ",
+            "symbol": "yTEZ",
+            "decimals": "12",
+            "thumbnailUri": "ipfs://QmS8KfPHs9TACD64ZTMvHx1DSPiSwzSXfCZDRQ3WywBFMJ",
+            "isTransferable": true,
+            "isBooleanAmount": false,
+            "shouldPreferSymbol": true
+          }
+        },
+        "balance": "0",
+        "transfersCount": 2,
+        "firstLevel": 4315073,
+        "firstTime": "2023-09-29T15:29:41Z",
+        "lastLevel": 4315079,
+        "lastTime": "2023-09-29T15:31:11Z"
+      },
+      {
+        "id": 775886734360577,
+        "account": {
+          "address": "KT19GUbPwXTbKYns9AGPENW7xdsy8qZAr6PH"
+        },
+        "token": {
+          "id": 699049326936065,
+          "contract": {
+            "alias": "uXAU-uUSD Liquidity Token",
+            "address": "KT1E5LDfNruK7bYL5vmTDomRXAiZnZsom8Uc"
+          },
+          "tokenId": "0",
+          "standard": "fa1.2",
+          "totalSupply": "26285632219428617",
+          "metadata": {
+            "name": "uXAU-uUSD Liquidity Token",
+            "symbol": "uXAU-uUSD LP",
+            "decimals": "12",
+            "isTransferable": true,
+            "isBooleanAmount": false,
+            "shouldPreferSymbol": true
+          }
+        },
+        "balance": "0",
+        "transfersCount": 4,
+        "firstLevel": 4336546,
+        "firstTime": "2023-10-03T09:32:43Z",
+        "lastLevel": 4336560,
+        "lastTime": "2023-10-03T09:36:13Z"
+      }
+    ],
+    "token_count": 2,
+    "owner_count": 1,
+    "threshold_percentage": 1
   },
   {
     "id": 4826789,
@@ -673,7 +1267,195 @@
       "threshold": "1",
       "effective_period": "86400",
       "proposal_counter": "2"
-    }
+    },
+    "tzsafe_version": "0.1.1",
+    "tokens": [
+      {
+        "id": 772300367462401,
+        "account": {
+          "address": "KT1RE5dvrjaSyxc8CbKxaUBK36UqWn5CszU1"
+        },
+        "token": {
+          "id": 765730269167617,
+          "contract": {
+            "address": "KT1S8rMTH8xwbSmwGxS1HRUYjdYMUT23DAcx"
+          },
+          "tokenId": "2",
+          "standard": "fa2",
+          "totalSupply": "120",
+          "metadata": {
+            "date": "2023-09-26T11:39:28.224723Z",
+            "name": "Arts & Poetry - Vol. 2",
+            "tags": [
+              "poetry",
+              "literature",
+              "collaboration",
+              "artists",
+              "magazine",
+              "literary",
+              "poems",
+              "poets",
+              "arts",
+              "journal",
+              "interactive"
+            ],
+            "image": "ipfs://QmZgQ9oLoG3ScPRxLZ5q7RR9mQzAa7jDAxNSKNVhVG54rV",
+            "minter": "KT1Aq4wWmVanpQhq4TTfjZXB5AjFpx15iQMM",
+            "rights": "No License / All Rights Reserved",
+            "symbol": "OBJKTCOM",
+            "formats": [
+              {
+                "uri": "ipfs://QmZgQ9oLoG3ScPRxLZ5q7RR9mQzAa7jDAxNSKNVhVG54rV",
+                "fileName": "display.png",
+                "fileSize": "1327028",
+                "mimeType": "image/png",
+                "dimensions": {
+                  "unit": "px",
+                  "value": "768x1024"
+                }
+              },
+              {
+                "uri": "ipfs://QmVEaPWcjGBJWkfMDcdeKa5G8mJTn681fPcPg32Cfza5FH",
+                "fileName": "artifact",
+                "fileSize": "58803203",
+                "mimeType": "application/x-directory"
+              },
+              {
+                "uri": "ipfs://QmQVaEErUHhqP6fhd54WYJChrJq2iFHrj1AbzgiZsxbpmC",
+                "fileName": "thumbnail.png",
+                "fileSize": "223690",
+                "mimeType": "image/png",
+                "dimensions": {
+                  "unit": "px",
+                  "value": "300x400"
+                }
+              }
+            ],
+            "creators": [
+              "tz1Uy22hcgukdvgTrt2Nk4q96U9YST5H6HAg"
+            ],
+            "decimals": "0",
+            "royalties": {
+              "shares": {
+                "tz1LsNuZKJXHJebSUGzB2zaPAbbq2yhZEacb": "50",
+                "tz1RLYWKTbnE1pxpz4bMC4WhdhDLwQc4eFgH": "50",
+                "tz1T7Xzm8ugh6VkWrcWHw57RfnVbCCBVozTX": "50",
+                "tz1UBdgrTps9unPWx6ebwGRSCTL8W7hS5y4U": "50",
+                "tz1UXjSj9eSRuLKpS2mwwpuiv5FtE79K9Bjv": "50",
+                "tz1Uy22hcgukdvgTrt2Nk4q96U9YST5H6HAg": "50",
+                "tz1VeW7M5huuTtwEGqTBxVa1jUaFCwUkckef": "50",
+                "tz1X2Gr7DtbJhityS1UPgUbvbBN1GWuoqcJg": "50",
+                "tz1X7hMAfgYuHNHuYXcBLMpPsjFn2J2xR9Fe": "50",
+                "tz1Y1FTSzCsF4yGkzzvsHXK7FBrF87DATWUD": "50",
+                "tz1YHfhJUCVFDAYLaaAdHSaf9m2YjV5XPuQJ": "50",
+                "tz1ZTnrJtCeHc4WL1si73A4v9bUfyie3nUMA": "50",
+                "tz1dGUCxSKAujCMJVgMV3apjGizEjCY2KEjU": "50",
+                "tz1f6KZ9GsaZkjkmZM4Lej3afkqxvFrJTMAD": "50",
+                "tz1fVQeFqBKqk6ZUnPYLq5iN2NcMzTHr86vw": "50",
+                "tz1fX5ufVVvawf6N3CuurtDwWyTKwfiv7Pcj": "50",
+                "tz1feaEw9SSCgZqF6rZ57DmGYaU53YZTpmgr": "50",
+                "tz1ggLu1T8a2ZtACNi3TDo88VZJaS3tUZnNE": "50",
+                "tz1hhibUt6FRaV4EDbSfe1pDyR3WnEqPHik2": "50",
+                "tz1iVZoNYBNegWd7PGcjxLbcHZajJdapmGgy": "50"
+              },
+              "decimals": "4"
+            },
+            "attributes": [],
+            "displayUri": "ipfs://QmZgQ9oLoG3ScPRxLZ5q7RR9mQzAa7jDAxNSKNVhVG54rV",
+            "artifactUri": "ipfs://QmVEaPWcjGBJWkfMDcdeKa5G8mJTn681fPcPg32Cfza5FH",
+            "description": "In this second volume, we break new ground – adding GIF and video functionality with poems and visual art from 20 of Web3's rising stars, including Jono, Futuradora, Mark Fitzpatrick, H.C. Holter, and many more.\n\nFeaturing voices from around the world – Africa, the Americas, Europe and Australia – this is a unique literary NFT which engages the eyes and ears, the heart and mind. \n\nBecause this is an interactive token, I recommend activating “advanced mode” in the Objkt interface to enjoy all its functionality – and to turn up your volume, since one of the pieces enhances the words and visuals of the poet’s work with sound.\n\nA key feature of this piece that I wanted to highlight is that every contributor receives an equal share of all sales – 1/20th of the initial sale price and the secondary royalties. This is a much more equitable approach than that of traditional journals – and an example of the way that NFTs can improve collaborative, cooperative approaches to valuing the work of poets, artists, and other creatives!\n\nIt is also a cross-chain project – there will be copies on the Polygon blockchain through the “Readl” platform, which (like Objkt) features a simple method for organically splitting creator payments across 20 wallets.\n\nFuture volumes will be released simultaneously (and at similar price points) on Polygon and Tezos – and we will look to bring on support for Solana, Cardano, and Ethereum in the future, in order to promote the spread of poetry and art in a way that allows collectors to connect with art regardless of which blockchain they prefer.",
+            "mintingTool": "https://objkt.com/mintV2",
+            "thumbnailUri": "ipfs://QmQVaEErUHhqP6fhd54WYJChrJq2iFHrj1AbzgiZsxbpmC",
+            "accessibility": {
+              "hazards": [
+                "flashing"
+              ]
+            }
+          }
+        },
+        "balance": "1",
+        "transfersCount": 1,
+        "firstLevel": 4322379,
+        "firstTime": "2023-09-30T22:10:30Z",
+        "lastLevel": 4322379,
+        "lastTime": "2023-09-30T22:10:30Z"
+      },
+      {
+        "id": 772454553223169,
+        "account": {
+          "address": "KT1RE5dvrjaSyxc8CbKxaUBK36UqWn5CszU1"
+        },
+        "token": {
+          "id": 450728788230145,
+          "contract": {
+            "alias": "hic et nunc NFTs",
+            "address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton"
+          },
+          "tokenId": "810047",
+          "standard": "fa2",
+          "totalSupply": "10",
+          "metadata": {
+            "date": "2023-02-01T15:15:27.755Z",
+            "name": "pregnant",
+            "tags": [
+              "nftphoto"
+            ],
+            "symbol": "OBJKT",
+            "formats": [
+              {
+                "uri": "ipfs://QmZpZPpFKCFMtjxh8cNGt4tnmCTYc2iCtvZQqnB6exPtUW",
+                "fileName": "8.jpg",
+                "fileSize": "551115",
+                "mimeType": "image/jpeg",
+                "dimensions": {
+                  "unit": "px",
+                  "value": "1196x797"
+                }
+              },
+              {
+                "uri": "ipfs://Qmcif88rvAf9XvnG3aYd5Yc1NQVGS9dijfMsUYkbaYT3sD",
+                "fileName": "cover_8.jpg",
+                "fileSize": "130278",
+                "mimeType": "image/jpeg",
+                "dimensions": {
+                  "unit": "px",
+                  "value": "1024x682"
+                }
+              },
+              {
+                "uri": "ipfs://Qmf7wJGfCng2LHBP3BDSvWeZDu3XRmkgnV2m9DvcNew6Uf",
+                "fileName": "thumbnail_8.jpg",
+                "fileSize": "20716",
+                "mimeType": "image/jpeg",
+                "dimensions": {
+                  "unit": "px",
+                  "value": "350x233"
+                }
+              }
+            ],
+            "creators": [
+              "tz1hpuqtQduT7Bya3tahXoTEVqCEm9R5Kz9L"
+            ],
+            "decimals": "0",
+            "displayUri": "ipfs://Qmcif88rvAf9XvnG3aYd5Yc1NQVGS9dijfMsUYkbaYT3sD",
+            "artifactUri": "ipfs://QmZpZPpFKCFMtjxh8cNGt4tnmCTYc2iCtvZQqnB6exPtUW",
+            "mintingTool": "https://teia.art/mint",
+            "thumbnailUri": "ipfs://Qmf7wJGfCng2LHBP3BDSvWeZDu3XRmkgnV2m9DvcNew6Uf",
+            "isBooleanAmount": false,
+            "shouldPreferSymbol": false
+          }
+        },
+        "balance": "1",
+        "transfersCount": 1,
+        "firstLevel": 4323007,
+        "firstTime": "2023-10-01T00:47:53Z",
+        "lastLevel": 4323007,
+        "lastTime": "2023-10-01T00:47:53Z"
+      }
+    ],
+    "token_count": 2,
+    "owner_count": 1,
+    "threshold_percentage": 1
   },
   {
     "id": 4811430,
@@ -716,7 +1498,12 @@
       "threshold": "1",
       "effective_period": "86400",
       "proposal_counter": "0"
-    }
+    },
+    "tzsafe_version": "0.1.1",
+    "tokens": [],
+    "token_count": 0,
+    "owner_count": 1,
+    "threshold_percentage": 1
   },
   {
     "id": 4803866,
@@ -760,7 +1547,44 @@
       "threshold": "1",
       "effective_period": "86400",
       "proposal_counter": "1"
-    }
+    },
+    "tzsafe_version": "0.1.1",
+    "tokens": [
+      {
+        "id": 760981343961089,
+        "account": {
+          "address": "KT1SdhXioaKDrtSs7FzBTWZo2TneC563hGuc"
+        },
+        "token": {
+          "id": 712927911870465,
+          "contract": {
+            "alias": "Youves Synthetic Asset",
+            "address": "KT1XRPEPXbZK25r3Htzp2o1x7xdMMmfocKNW"
+          },
+          "tokenId": "4",
+          "standard": "fa2",
+          "totalSupply": "14021523514465",
+          "metadata": {
+            "name": "youves XAU",
+            "symbol": "uXAU",
+            "decimals": "12",
+            "thumbnailUri": "ipfs://QmdsFiZoqM1fHmeymX4bVdMm2KejRXoykZTE9tXRTo7BW8",
+            "isTransferable": true,
+            "isBooleanAmount": false,
+            "shouldPreferSymbol": true
+          }
+        },
+        "balance": "0",
+        "transfersCount": 2,
+        "firstLevel": 4278429,
+        "firstTime": "2023-09-23T05:36:50Z",
+        "lastLevel": 4278434,
+        "lastTime": "2023-09-23T05:38:05Z"
+      }
+    ],
+    "token_count": 1,
+    "owner_count": 2,
+    "threshold_percentage": 0.5
   },
   {
     "id": 4800155,
@@ -806,7 +1630,12 @@
       "threshold": "3",
       "effective_period": "86400",
       "proposal_counter": "3"
-    }
+    },
+    "tzsafe_version": "0.1.1",
+    "tokens": [],
+    "token_count": 0,
+    "owner_count": 4,
+    "threshold_percentage": 0.75
   },
   {
     "id": 4576366,
@@ -850,7 +1679,44 @@
       "threshold": "1",
       "effective_period": "86400",
       "proposal_counter": "1"
-    }
+    },
+    "tzsafe_version": "0.0.11",
+    "tokens": [
+      {
+        "id": 756986365870081,
+        "account": {
+          "address": "KT1VzShnvV6oUJELjp1droA7uVY9oVDgLbSV"
+        },
+        "token": {
+          "id": 145163660820481,
+          "contract": {
+            "alias": "EURL",
+            "address": "KT1JBNFcB5tiycHNdYGYCtR3kk6JaJysUCi8"
+          },
+          "tokenId": "0",
+          "standard": "fa2",
+          "totalSupply": "2750525000000",
+          "metadata": {
+            "name": "Lugh Euro pegged stablecoin",
+            "symbol": "EURL",
+            "decimals": "6",
+            "thumbnailUri": "ipfs://QmcqsYQn8pTxQr3P1dYpgYxQa6GQPmoBTSWQ8bpuFEuaqe",
+            "is_transferable": "True",
+            "is_boolean_amount": "False",
+            "should_prefer_symbol": "True"
+          }
+        },
+        "balance": "5000000",
+        "transfersCount": 1,
+        "firstLevel": 4263152,
+        "firstTime": "2023-09-20T12:45:26Z",
+        "lastLevel": 4263152,
+        "lastTime": "2023-09-20T12:45:26Z"
+      }
+    ],
+    "token_count": 1,
+    "owner_count": 2,
+    "threshold_percentage": 0.5
   },
   {
     "id": 4793692,
@@ -896,7 +1762,12 @@
       "threshold": "2",
       "effective_period": "86400",
       "proposal_counter": "0"
-    }
+    },
+    "tzsafe_version": "0.1.1",
+    "tokens": [],
+    "token_count": 0,
+    "owner_count": 4,
+    "threshold_percentage": 0.5
   },
   {
     "id": 4767785,
@@ -942,7 +1813,12 @@
       "threshold": "1",
       "effective_period": "86400",
       "proposal_counter": "3"
-    }
+    },
+    "tzsafe_version": "0.1.1",
+    "tokens": [],
+    "token_count": 0,
+    "owner_count": 3,
+    "threshold_percentage": 0.3333333333333333
   },
   {
     "id": 4712117,
@@ -985,7 +1861,12 @@
       "threshold": "1",
       "effective_period": "86400",
       "proposal_counter": "1"
-    }
+    },
+    "tzsafe_version": "0.1.1",
+    "tokens": [],
+    "token_count": 0,
+    "owner_count": 1,
+    "threshold_percentage": 1
   },
   {
     "id": 4643839,
@@ -1028,7 +1909,70 @@
       "threshold": "1",
       "effective_period": "86400",
       "proposal_counter": "0"
-    }
+    },
+    "tzsafe_version": "0.1.1",
+    "tokens": [
+      {
+        "id": 682198033235969,
+        "account": {
+          "address": "KT1V9vrr9HND39avmHCwGQNzd3EGdsiwb7Kq"
+        },
+        "token": {
+          "id": 49361314643969,
+          "contract": {
+            "alias": "hic et nunc NFTs",
+            "address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton"
+          },
+          "tokenId": "44832",
+          "standard": "fa2",
+          "totalSupply": "300",
+          "metadata": {
+            "name": "silence is movement too 1 frame",
+            "tags": [
+              "NFTS",
+              "CLEANNFT",
+              "CRYPTOART",
+              "NFTART",
+              "NFTCOLLECTOR",
+              "NFTARTISTS",
+              "TEZOS",
+              "BRAZILIANARTIST",
+              "BRAZIL",
+              "LATINOAMERICA",
+              "CRIPTOARTEBRASIL",
+              "DIGITALILLUSTRATION",
+              "PHOTOGRAPH"
+            ],
+            "symbol": "OBJKT",
+            "formats": [
+              {
+                "uri": "ipfs://QmYFG4r1Tpd4MBdENmq8bhT7jEJwPvgTAMARq94dp2yWDs",
+                "mimeType": "image/jpeg"
+              }
+            ],
+            "creators": [
+              "tz1hAHemDzoVyUkECZP1SsjwLDfnHJZZGdJK"
+            ],
+            "decimals": "0",
+            "displayUri": "",
+            "artifactUri": "ipfs://QmYFG4r1Tpd4MBdENmq8bhT7jEJwPvgTAMARq94dp2yWDs",
+            "description": "digital illustration photograph",
+            "thumbnailUri": "ipfs://QmNrhZHUaEqxhyLfqoq1mtHSipkWHeT31LNHb1QEbDHgnc",
+            "isBooleanAmount": false,
+            "shouldPreferSymbol": false
+          }
+        },
+        "balance": "1",
+        "transfersCount": 1,
+        "firstLevel": 3966606,
+        "firstTime": "2023-07-30T10:23:21Z",
+        "lastLevel": 3966606,
+        "lastTime": "2023-07-30T10:23:21Z"
+      }
+    ],
+    "token_count": 1,
+    "owner_count": 1,
+    "threshold_percentage": 1
   },
   {
     "id": 4663633,
@@ -1071,7 +2015,12 @@
       "threshold": "1",
       "effective_period": "86400",
       "proposal_counter": "0"
-    }
+    },
+    "tzsafe_version": "0.1.1",
+    "tokens": [],
+    "token_count": 0,
+    "owner_count": 1,
+    "threshold_percentage": 1
   },
   {
     "id": 4603058,
@@ -1116,7 +2065,79 @@
       "threshold": "2",
       "effective_period": "900",
       "proposal_counter": "1"
-    }
+    },
+    "tzsafe_version": "0.1.1",
+    "tokens": [
+      {
+        "id": 636528211525633,
+        "account": {
+          "address": "KT1DWeejr9DyPUwDUKgQWXg2ts7UXLzD6kkR"
+        },
+        "token": {
+          "id": 489768947286017,
+          "contract": {
+            "alias": "Mooncakes",
+            "address": "KT1CzVSa18hndYupV9NcXy3Qj7p8YFDZKVQv"
+          },
+          "tokenId": "134",
+          "standard": "fa2",
+          "totalSupply": "352",
+          "metadata": {
+            "id": "134",
+            "name": "Mystique Mooncake",
+            "decimals": "0",
+            "royalties": {
+              "shares": {
+                "tz1KfTZd9vjPbaPHsdppXyjmdRFVUDGbnGoh": "5"
+              },
+              "decimals": "2"
+            },
+            "attributes": [
+              {
+                "name": "Color",
+                "value": "Purple"
+              },
+              {
+                "name": "Symbol",
+                "value": "Mystique"
+              },
+              {
+                "name": "Background",
+                "value": "Charcoal"
+              },
+              {
+                "name": "Mint",
+                "value": "Common"
+              },
+              {
+                "name": "Shape",
+                "value": "Round"
+              },
+              {
+                "name": "Moondust",
+                "value": "16"
+              }
+            ],
+            "displayUri": "ipfs://QmcyUpP1ffiPa6252CEMtqte2JebZXNP8rSP1DT7V5grmh",
+            "artifactUri": "ipfs://QmWuypK2Qk3eEob781ncWcjx2EP2UoApFwFY6z3xJJTNtQ",
+            "description": "Mooncakes are a fun way to discover the world of NFTs.",
+            "thumbnailUri": "ipfs://QmcyUpP1ffiPa6252CEMtqte2JebZXNP8rSP1DT7V5grmh",
+            "isTransferable": true,
+            "isBooleanAmount": false,
+            "shouldPreferSymbol": false
+          }
+        },
+        "balance": "1",
+        "transfersCount": 1,
+        "firstLevel": 3785744,
+        "firstTime": "2023-06-28T13:31:51Z",
+        "lastLevel": 3785744,
+        "lastTime": "2023-06-28T13:31:51Z"
+      }
+    ],
+    "token_count": 1,
+    "owner_count": 3,
+    "threshold_percentage": 0.6666666666666666
   },
   {
     "id": 4586672,
@@ -1160,7 +2181,64 @@
       "threshold": "2",
       "effective_period": "86400",
       "proposal_counter": "2"
-    }
+    },
+    "tzsafe_version": "0.1.1",
+    "tokens": [
+      {
+        "id": 620369218109441,
+        "account": {
+          "address": "KT1RxxKdRPtbWJYUv3yXTyWwWpmcEH6odZxX"
+        },
+        "token": {
+          "id": 160217458278401,
+          "contract": {
+            "alias": "akaSwap NFTs",
+            "address": "KT1AFq5XorPduoYyWxs5gEyrFK6fVjJVbtCj"
+          },
+          "tokenId": "4006",
+          "standard": "fa2",
+          "totalSupply": "1000",
+          "metadata": {
+            "name": "蓋婭__演算生成 Gaia__Generative",
+            "tags": [
+              "MoCATaipei",
+              "WebGL",
+              "Unity3D",
+              "Generative",
+              "Gaia"
+            ],
+            "symbol": "akaOBJ",
+            "formats": [
+              {
+                "uri": "ipfs://QmdutHYudvd4kn6DDRQVzSuehjqx4s7YH5aVwUu87WBbZ6",
+                "mimeType": "application/x-directory"
+              }
+            ],
+            "creators": [
+              "tz2Nzt7Nrt119S47E66JPzoCE1pUxu8HRVpF",
+              "tz28aFt33tPEvAy4MuarrQSP4RPu94aG221E",
+              "tz1RPZp6NLzn7x4g7jhqHtCkhCQVnhbVMj8y"
+            ],
+            "decimals": "0",
+            "displayUri": "ipfs://QmdbLtkLoBknNn2D3bZuJzbywK2GhMeBrpfzRQszKRy6NW",
+            "artifactUri": "ipfs://QmdutHYudvd4kn6DDRQVzSuehjqx4s7YH5aVwUu87WBbZ6",
+            "description": "本作品為台北當代藝術館展覽 「蓋婭：基因、演算、智能設計與自動機＿幻我；它境」之衍生性作品，本作品由館方與新媒體藝術家黃新共同製作。作品會依據持有者的錢包地址，演算出獨一無二的動態視覺。持有本 NFT 者可於本展覽期間免費重複入場參觀，現場需要出示持有 NFT 之證明。\n\n蓋婭：基因、演算、智能設計與自動機＿幻我；它境\n2022/02/12（六） - 2022/04/24（日）\n\n\nThis is a derivative artwork of the exhibition \"Gaia: Gene, algorithm, intelligent design, automata_A mirage self, The Other Realm\" at MoCA Taipei. This artwork is a collaboration between the museum and the new media artist Hsing Huang. This piece will generate a unique dynamic visual image for each NFT based on each owner’s wallet address. Owners of this NFT can visit the exhibition for free during the exhibition period with presenting their own NFT at the entrance.\n\nGaia: Gene, algorithm, intelligent design, automata_A mirage self, The Other Realm\n2022/02/12 Sat. - 2022/04/24 Sun.",
+            "thumbnailUri": "ipfs://QmXgYHSSAAhPaVb2uBBkyRhsBizwSinVsqVREdk97ztDbG",
+            "isBooleanAmount": false,
+            "shouldPreferSymbol": false
+          }
+        },
+        "balance": "0",
+        "transfersCount": 2,
+        "firstLevel": 3721545,
+        "firstTime": "2023-06-17T05:32:59Z",
+        "lastLevel": 3721624,
+        "lastTime": "2023-06-17T05:52:44Z"
+      }
+    ],
+    "token_count": 1,
+    "owner_count": 2,
+    "threshold_percentage": 1
   },
   {
     "id": 4582070,
@@ -1203,7 +2281,12 @@
       "threshold": "1",
       "effective_period": "86400",
       "proposal_counter": "0"
-    }
+    },
+    "tzsafe_version": "0.1.1",
+    "tokens": [],
+    "token_count": 0,
+    "owner_count": 1,
+    "threshold_percentage": 1
   },
   {
     "id": 4581182,
@@ -1246,7 +2329,12 @@
       "threshold": "1",
       "effective_period": "86400",
       "proposal_counter": "0"
-    }
+    },
+    "tzsafe_version": "0.1.1",
+    "tokens": [],
+    "token_count": 0,
+    "owner_count": 1,
+    "threshold_percentage": 1
   },
   {
     "id": 4580663,
@@ -1291,7 +2379,12 @@
       "threshold": "2",
       "effective_period": "86400",
       "proposal_counter": "1"
-    }
+    },
+    "tzsafe_version": "0.1.1",
+    "tokens": [],
+    "token_count": 0,
+    "owner_count": 2,
+    "threshold_percentage": 1
   },
   {
     "id": 4580598,
@@ -1337,7 +2430,57 @@
       "threshold": "2",
       "effective_period": "3600",
       "proposal_counter": "1"
-    }
+    },
+    "tzsafe_version": "0.1.1",
+    "tokens": [
+      {
+        "id": 616438039576577,
+        "account": {
+          "address": "KT18p97zLFDrg6acMR9eRCMELgqLsmtuuqGq"
+        },
+        "token": {
+          "id": 616397551960065,
+          "contract": {
+            "alias": "FXHASH contract handling Generative Tokens",
+            "address": "KT1EfsNuqwLAWDd3o4pvfUx1CAh5GMdTrRvr"
+          },
+          "tokenId": "57417",
+          "standard": "fa2",
+          "totalSupply": "1",
+          "metadata": {
+            "name": "rosarium #185",
+            "tags": [
+              "Non Fungible Conference",
+              "Lisbon 2023",
+              "flowers",
+              "plants",
+              "abstract",
+              "3d"
+            ],
+            "symbol": "GENTK",
+            "version": "0.2",
+            "decimals": "0",
+            "attributes": [],
+            "displayUri": "ipfs://QmQo58oLtqrpWrnyCztsVAJZJJxb3c8mY5yQpYwJmNyKCb",
+            "artifactUri": "ipfs://QmYqUDrqZjkor4Kv3wLZfSPW8syMWAnqXUAZ9wLr1Fqwqg/?fxhash=oocR18bnPVSBXG3GeUsFnQU4haog1RWbnkfoxzSqHXnX36DShY6&fxminter=tz1SLRzGqX9fuKPx1PAkrDxCvaetr524is11",
+            "description": "\"rosarium\" is part of the live minting experience at Non Fungible Conference Lisbon, June 7-8, 2023.\n\nEach iteration of rosarium is an arrangement of several unique species of ethereal, alien, and yet familiar flowers.\n\nThis piece uses progressive volumetric rendering to produce photorealistic images. It may take several seconds to produce a recognizable image, and several minutes to produce a high-quality render with no visible noise.\n\nCreated with webgl and clojurescript.\n\nControls:\n\nClick on the canvas to open a menu in the top right corner. In this menu you will see controls to capture a screenshot, adjust resolution, and adjust the camera, along with several other controls.\n\nWhen the \"optimized render\" option is checked, the page will compute an acceleration structure before rendering to allow the piece to converge much faster. With this option checked, the piece may need to process for up to a minute before rendering begins, but subsequently the rendering will proceed much more quickly than normal. This can be used to generate high-quality captures more quickly than when the option is not checked.\n\nWhen the \"filtering\" option is checked, a noise filter will be applied to the result of the render, reducing the appearance of noise.\n\nThe \"logic multiple\" slider can be used to multiply the amount of rendering work done each frame. Increasing this number may allow the piece to render more quickly, but may also make the page laggy. It is not recommended to increase this number unless you have a powerful GPU.",
+            "generatorUri": "ipfs://QmYqUDrqZjkor4Kv3wLZfSPW8syMWAnqXUAZ9wLr1Fqwqg",
+            "thumbnailUri": "ipfs://QmQseeVcuUwxqmQqdL9NCy2zbbxaRTtdpZKuJ8qiVmi1Uz",
+            "iterationHash": "oocR18bnPVSBXG3GeUsFnQU4haog1RWbnkfoxzSqHXnX36DShY6",
+            "authenticityHash": "6ea3e88e4680dad6c9e7657ae50a4f2db8b30d53a99b3082ad2cc43c533b02d7"
+          }
+        },
+        "balance": "1",
+        "transfersCount": 1,
+        "firstLevel": 3707015,
+        "firstTime": "2023-06-14T16:14:57Z",
+        "lastLevel": 3707015,
+        "lastTime": "2023-06-14T16:14:57Z"
+      }
+    ],
+    "token_count": 1,
+    "owner_count": 3,
+    "threshold_percentage": 0.6666666666666666
   },
   {
     "id": 4576015,
@@ -1380,7 +2523,12 @@
       "threshold": "1",
       "effective_period": "86400",
       "proposal_counter": "0"
-    }
+    },
+    "tzsafe_version": "0.0.11",
+    "tokens": [],
+    "token_count": 0,
+    "owner_count": 1,
+    "threshold_percentage": 1
   },
   {
     "id": 4449053,
@@ -1426,7 +2574,43 @@
       "threshold": "2",
       "effective_period": "28800",
       "proposal_counter": "6"
-    }
+    },
+    "tzsafe_version": "0.0.11",
+    "tokens": [
+      {
+        "id": 553564521889793,
+        "account": {
+          "address": "KT1MiQXi1bit9LC3xAuiaFujosU499Wvk8Hh"
+        },
+        "token": {
+          "id": 531780186669057,
+          "contract": {
+            "alias": "Tezos Pepe",
+            "address": "KT1MZg99PxMDEENwB4Fi64xkqAVh5d1rv8Z9"
+          },
+          "tokenId": "0",
+          "standard": "fa2",
+          "totalSupply": "63900000000",
+          "metadata": {
+            "name": "Tezos Pepe",
+            "symbol": "PEPE",
+            "decimals": "2",
+            "description": "Even the smallest frog can change the course of the future --Tolkien the Frog",
+            "thumbnailUri": "https://bafybeigqka2ynrib6ytxku3nvakork5smsxni5xdqro56kd7ecsfos7z7a.ipfs.dweb.link/",
+            "shouldPreferSymbol": "true"
+          }
+        },
+        "balance": "23660000",
+        "transfersCount": 5,
+        "firstLevel": 3473167,
+        "firstTime": "2023-05-04T15:20:46Z",
+        "lastLevel": 3664478,
+        "lastTime": "2023-06-07T04:39:55Z"
+      }
+    ],
+    "token_count": 1,
+    "owner_count": 3,
+    "threshold_percentage": 0.6666666666666666
   },
   {
     "id": 4549754,
@@ -1471,7 +2655,12 @@
       "threshold": "1",
       "effective_period": "86400",
       "proposal_counter": "0"
-    }
+    },
+    "tzsafe_version": "0.0.11",
+    "tokens": [],
+    "token_count": 0,
+    "owner_count": 3,
+    "threshold_percentage": 0.3333333333333333
   },
   {
     "id": 4530414,
@@ -1536,7 +2725,42 @@
       "threshold": "1",
       "effective_period": "604800",
       "proposal_counter": "1"
-    }
+    },
+    "tzsafe_version": "0.0.11",
+    "tokens": [
+      {
+        "id": 582698379771905,
+        "account": {
+          "address": "KT1V5rVtYyiHtp9ZWMsQSUwrCH5heNzT9XxF"
+        },
+        "token": {
+          "id": 59964734308353,
+          "contract": {
+            "address": "KT1BW73gV31jfnMosjhyS7HckvtfJK8WQXj5"
+          },
+          "tokenId": "0",
+          "standard": "fa2",
+          "totalSupply": "1000000000000000000000000000",
+          "metadata": {
+            "name": "The Philosopher Coin",
+            "symbol": "PHIL",
+            "decimals": "18",
+            "description": "This is a coin to buy The_Philosopher's art ",
+            "thumbnailUri": "https://we.tl/t-EJEC3wzUqm",
+            "shouldPreferSymbol": "true"
+          }
+        },
+        "balance": "900225462907802196176115810",
+        "transfersCount": 2,
+        "firstLevel": 3581572,
+        "firstTime": "2023-05-23T16:04:21Z",
+        "lastLevel": 3581755,
+        "lastTime": "2023-05-23T16:50:52Z"
+      }
+    ],
+    "token_count": 1,
+    "owner_count": 23,
+    "threshold_percentage": 0.043478260869565216
   },
   {
     "id": 4499653,
@@ -1582,6 +2806,11 @@
       "threshold": "2",
       "effective_period": "86400",
       "proposal_counter": "0"
-    }
+    },
+    "tzsafe_version": "0.0.11",
+    "tokens": [],
+    "token_count": 0,
+    "owner_count": 4,
+    "threshold_percentage": 0.5
   }
 ]
