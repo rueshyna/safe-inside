@@ -18,11 +18,10 @@ jobs:
       with:
         node-version: '18'
 
-    - name: Go Chart
-      run: cd chart
 
     - name: Install dependencies
-      run: npm install
+      run: cd chart
+           npm install
 
     - name: Build
       run: npm run build
