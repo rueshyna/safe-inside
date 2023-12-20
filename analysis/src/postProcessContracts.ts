@@ -43,8 +43,8 @@ fs.readdir(tempFolderPath, (err, files) => {
     const statisticsThresholdPercentage : Record<number, number> = {}
     const statisticsThresholdPercentageSans1Of1: Record<number, number> = {}
     const statisticsThresholdPercentageWith1OfM: Record<number, number> = {}
-    const statisticsThresholdPercentageWith1OfMSans1Of1: Record<number, number> = {}
-    const statisticsNFTCount: Record<number, number> = {}
+    const statisticsTokensCount: Record<number, number> = {}
+    const statisticsXTZCount: Record<number, number> = {}
 
     const combinedData: Record<string, number| string>[] = [];
 
@@ -56,7 +56,7 @@ fs.readdir(tempFolderPath, (err, files) => {
         try {
             const data: ContractData[] = JSON.parse(fileContent);
             data.forEach(item => {
-                const threshold_percentage = Math.round(item.threshold_percentage * 10000) / 100;
+                let threshold_percentage = Math.round(item.threshold_percentage * 10000) / 100;
                 const balance = Math.round(item.balance/10000)/100
                 const secondsPerDay = 86400;
                 const effective_period = Math.round(Number(item.storage.effective_period) / secondsPerDay);
@@ -82,6 +82,8 @@ fs.readdir(tempFolderPath, (err, files) => {
                 else
                     statisticsOwnerCount[item.owner_count] = 1;
                 
+                threshold_percentage = Math.round(threshold_percentage);
+
                 if (statisticsThresholdPercentage[threshold_percentage])
                    statisticsThresholdPercentage[threshold_percentage] += 1;
                 else
@@ -94,24 +96,23 @@ fs.readdir(tempFolderPath, (err, files) => {
                         statisticsThresholdPercentageSans1Of1[threshold_percentage] = 1;
                 }
 
-                if (item.owner_count === 1) {
+                if (item.storage.threshold === "1") {
                     if (statisticsThresholdPercentageWith1OfM[threshold_percentage])
                         statisticsThresholdPercentageWith1OfM[threshold_percentage] += 1;
                     else
                         statisticsThresholdPercentageWith1OfM[threshold_percentage] = 1;
                 }
 
-                if (item.owner_count === 1 && item.storage.threshold !== "1") {
-                    if (statisticsThresholdPercentageWith1OfMSans1Of1[threshold_percentage])
-                        statisticsThresholdPercentageWith1OfMSans1Of1[threshold_percentage] += 1;
-                    else
-                        statisticsThresholdPercentageWith1OfMSans1Of1[threshold_percentage] = 1;
-                }
-
-                if (statisticsNFTCount[item.owner_count])
-                    statisticsNFTCount[item.owner_count] += 1;
+                if (statisticsTokensCount[item.token_count])
+                    statisticsTokensCount[item.token_count] += 1;
                 else
-                    statisticsNFTCount[item.owner_count] = 1;
+                    statisticsTokensCount[item.token_count] = 1;
+
+                const xtz = Math.round(balance);
+                if (statisticsXTZCount[xtz])
+                    statisticsXTZCount[xtz] += 1;
+                else
+                    statisticsXTZCount[xtz] = 1;
             });
         } catch (jsonErr) {
             console.error(`Error parsing JSON in file ${file}:`, jsonErr);
@@ -124,6 +125,6 @@ fs.readdir(tempFolderPath, (err, files) => {
     writeToFile(statisticsThresholdPercentage, 'statisticsThresholdPercentage.json');
     writeToFile(statisticsThresholdPercentageSans1Of1, 'statisticsThresholdPercentageSans1Of1.json');
     writeToFile(statisticsThresholdPercentageWith1OfM, 'statisticsThresholdPercentageWith1OfM.json');
-    writeToFile(statisticsThresholdPercentageWith1OfMSans1Of1, 'statisticsThresholdPercentageWith1OfMSans1Of1.json');
-    writeToFile(statisticsNFTCount, 'statisticsNFTCount.json');
+    writeToFile(statisticsTokensCount, 'statisticsTokenCount.json');
+    writeToFile(statisticsXTZCount, 'statisticsXTZCount.json');
 });

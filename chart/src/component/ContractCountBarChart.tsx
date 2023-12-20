@@ -4,27 +4,40 @@ import { Chart as ChartJS, CategoryScale, LinearScale, BarElement, Title, Toolti
 
 ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend);
 
-interface BarChartData {
-  [key: string]: number;
+interface Dataset {
+  label: string;
+  data: number[];
+  backgroundColor?: string;
+  borderColor?: string;
+  borderWidth?: number;
 }
 
 interface BarChartProps {
-  data: BarChartData;
-  label: string;
+  labels: string[];
+  datasets: Dataset[];
 }
 
-const ContractCountBarChart: React.FC<BarChartProps> = ({ data, label  }) => {
+const defaultBackgroundColors = [
+  'rgba(54, 162, 235, 0.6)',  // blue
+  'rgba(255, 206, 86, 0.6)',  // yellow
+  'rgba(153, 102, 255, 0.6)', // purple
+  'rgba(255, 99, 132, 0.6)',  // red
+  'rgba(255, 159, 64, 0.6)',  // orange
+  'rgba(75, 192, 192, 0.6)',  // green
+  'rgba(199, 199, 199, 0.6)', // grey
+  'rgba(83, 102, 255, 0.6)',  // indigo
+  'rgba(255, 99, 71, 0.6)',   // tomato
+  'rgba(60, 179, 113, 0.6)'   // medium sea green
+];
+
+const ContractCountBarChart: React.FC<BarChartProps> = ({ labels, datasets }) => {
+  datasets.forEach((dataset, index) => {
+    dataset.backgroundColor = dataset.backgroundColor || defaultBackgroundColors[index % defaultBackgroundColors.length];
+  });
+
   const chartData = {
-    labels: Object.keys(data),
-    datasets: [
-      {
-        label: label,
-        data: Object.values(data),
-        backgroundColor: 'rgba(54, 162, 235, 0.6)',
-        borderColor: 'rgba(54, 162, 235, 1)',
-        borderWidth: 1,
-      },
-    ],
+    labels,
+    datasets,
   };
 
   const options = {
