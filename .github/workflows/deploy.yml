@@ -20,8 +20,9 @@ jobs:
 
 
     - name: Install dependencies
-      run: cd chart
-           npm install
+      run: |
+        cd chart
+        npm install
 
     - name: Build
       run: npm run build
