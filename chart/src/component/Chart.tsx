@@ -1,5 +1,5 @@
-// MainContent.tsx
-import ContractCountBarChart from '../component/ContractCountBarChart';
+// Chart.tsx
+import ContractCountBarChart from './ContractCountBarChart';
 import data10XTZContractCount from '../data/10XTZContractCount.json';
 import dataAllCountractCount from '../data/allContractCount.json';
 import dataMonthlyActivityContractCount from '../data/monthlyActivityContractCount.json';

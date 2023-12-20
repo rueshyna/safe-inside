@@ -1,6 +1,6 @@
-// Sidebar.tsx
-import dataLastUpdatedTime from '../data/lastUpdatedTime.json';
 import React from 'react';
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
+import dataLastUpdatedTime from '../data/lastUpdatedTime.json';
 
 const Sidebar: React.FC = () => {
   return (
@@ -12,14 +12,14 @@ const Sidebar: React.FC = () => {
       </div>
       <ul>
         <li className="mb-2">
-          <a href="#link1" className="text-blue-600 hover:text-blue-800">
-            Link 1
-          </a>
+          <Link to="/chart" className="text-blue-600 hover:text-blue-800">
+            Chart
+          </Link>
         </li>
         <li>
-          <a href="#link2" className="text-blue-600 hover:text-blue-800">
-            Link 2
-          </a>
+          <Link to="/sortabletable" className="text-blue-600 hover:text-blue-800">
+            Table
+          </Link>
         </li>
       </ul>
     </div>
