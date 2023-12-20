@@ -29,10 +29,9 @@ jobs:
 
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@4.1.0
-      working-directory: ./safe-inside/chart
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         BRANCH: gh-pages
-        FOLDER: build
+        FOLDER: ./chart/build
         CLEAN: true
 
