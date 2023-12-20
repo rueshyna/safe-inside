@@ -1,10 +1,8 @@
-// App.tsx
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Sidebar from './component/Sidebar';
 import Chart from './component/Chart';
-import SortableTable from './component/SortableTable'
-
+import SortableTable from './component/SortableTable';
 
 const App: React.FC = (): JSX.Element => {
   return (
@@ -15,7 +13,8 @@ const App: React.FC = (): JSX.Element => {
           <Routes>
             <Route path="/chart" element={<Chart />} />
             <Route path="/safes" element={<SortableTable />} />
-            <Route path="/" element={<Chart />} /> 
+            <Route path="/" element={<Chart />} />
+            <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </div>
       </div>
