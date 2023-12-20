@@ -28,6 +28,11 @@ function writeToFile(record: Record<string, any>, filename: string) {
     console.log('Written to:', filepath);
 }
 
+function formatDate(dateString: string): string {
+    const date = new Date(dateString);
+    return date.toISOString().split('T')[0];
+}
+
 fs.readdir(tempFolderPath, (err, files) => {
     if (err) {
         console.error('Error reading files from temp folder:', err);
@@ -52,19 +57,24 @@ fs.readdir(tempFolderPath, (err, files) => {
             const data: ContractData[] = JSON.parse(fileContent);
             data.forEach(item => {
                 const threshold_percentage = Math.round(item.threshold_percentage * 10000) / 100;
+                const balance = Math.round(item.balance/10000)/100
+                const secondsPerDay = 86400;
+                const effective_period = Math.round(Number(item.storage.effective_period) / secondsPerDay);
+                const proposal_counter = Number(item.storage.proposal_counter);
+                const threshold = Number(item.storage.threshold)
                 combinedData.push(
                 {
                         address: item.address,
                         tzsafe_version: item.tzsafe_version,
-                        lastActivityTime: item.lastActivityTime,
-                        firstActivityTime: item.firstActivityTime,
-                        balance: item.balance,
+                        lastActivityTime: formatDate(item.lastActivityTime),
+                        firstActivityTime: formatDate(item.firstActivityTime),
+                        balance: balance,
                         owner_count: item.owner_count,
                         token_count: item.token_count,
-                        threshold: item.storage.threshold,
+                        threshold: threshold,
                         threshold_percentage: threshold_percentage,
-                        effective_period: item.storage.effective_period,
-                        proposal_counter: item.storage.proposal_counter,
+                        effective_period: effective_period,
+                        proposal_counter: proposal_counter,
                 })
 
                 if (statisticsOwnerCount[item.owner_count])

@@ -14,7 +14,7 @@ const App: React.FC = (): JSX.Element => {
         <div className="flex-grow">
           <Routes>
             <Route path="/chart" element={<Chart />} />
-            <Route path="/sortabletable" element={<SortableTable />} />
+            <Route path="/safes" element={<SortableTable />} />
             <Route path="/" element={<Chart />} /> 
           </Routes>
         </div>
