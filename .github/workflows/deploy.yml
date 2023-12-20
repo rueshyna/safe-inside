@@ -25,7 +25,10 @@ jobs:
       working-directory: ./safe-inside/chart
 
     - name: Build
-      run: npm run build
+      run: |
+        pwd
+        npm run build
+
       working-directory: ./safe-inside/chart
 
     - name: Deploy
