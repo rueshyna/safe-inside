@@ -9,13 +9,14 @@ interface Storage {
 }
 
 interface ContractData {
-    owner_count: number;
-    threshold_percentage: number;
-    token_count: number;
-    balance: number;
+    address: string;
+    tzsafe_version: string;
     firstActivityTime: string;
     lastActivityTime: string;
-    tzsafe_version: string;
+    balance: number;
+    token_count: number;
+    owner_count: number;
+    threshold_percentage: number;
     storage: Storage
 }
 
@@ -50,18 +51,20 @@ fs.readdir(tempFolderPath, (err, files) => {
         try {
             const data: ContractData[] = JSON.parse(fileContent);
             data.forEach(item => {
+                const threshold_percentage = Math.round(item.threshold_percentage * 10000) / 100;
                 combinedData.push(
                 {
+                        address: item.address,
+                        tzsafe_version: item.tzsafe_version,
+                        lastActivityTime: item.lastActivityTime,
+                        firstActivityTime: item.firstActivityTime,
+                        balance: item.balance,
                         owner_count: item.owner_count,
-                        threshold_percentage: item.threshold_percentage,
                         token_count: item.token_count,
                         threshold: item.storage.threshold,
-                        balance: item.balance,
-                        firstActivityTime: item.firstActivityTime,
-                        lastActivityTime: item.lastActivityTime,
+                        threshold_percentage: threshold_percentage,
                         effective_period: item.storage.effective_period,
                         proposal_counter: item.storage.proposal_counter,
-                        tzsafe_version: item.tzsafe_version,
                 })
 
                 if (statisticsOwnerCount[item.owner_count])
@@ -69,32 +72,30 @@ fs.readdir(tempFolderPath, (err, files) => {
                 else
                     statisticsOwnerCount[item.owner_count] = 1;
                 
-                const p = Math.round(item.threshold_percentage * 100);
-
-                if (statisticsThresholdPercentage[p])
-                   statisticsThresholdPercentage[p] += 1;
+                if (statisticsThresholdPercentage[threshold_percentage])
+                   statisticsThresholdPercentage[threshold_percentage] += 1;
                 else
-                    statisticsThresholdPercentage[p] = 1;
+                    statisticsThresholdPercentage[threshold_percentage] = 1;
 
                 if (item.owner_count !== 1 && item.storage.threshold !== "1") {
-                    if (statisticsThresholdPercentageSans1Of1[p])
-                        statisticsThresholdPercentageSans1Of1[p] += 1;
+                    if (statisticsThresholdPercentageSans1Of1[threshold_percentage])
+                        statisticsThresholdPercentageSans1Of1[threshold_percentage] += 1;
                     else
-                        statisticsThresholdPercentageSans1Of1[p] = 1;
+                        statisticsThresholdPercentageSans1Of1[threshold_percentage] = 1;
                 }
 
                 if (item.owner_count === 1) {
-                    if (statisticsThresholdPercentageWith1OfM[p])
-                        statisticsThresholdPercentageWith1OfM[p] += 1;
+                    if (statisticsThresholdPercentageWith1OfM[threshold_percentage])
+                        statisticsThresholdPercentageWith1OfM[threshold_percentage] += 1;
                     else
-                        statisticsThresholdPercentageWith1OfM[p] = 1;
+                        statisticsThresholdPercentageWith1OfM[threshold_percentage] = 1;
                 }
 
                 if (item.owner_count === 1 && item.storage.threshold !== "1") {
-                    if (statisticsThresholdPercentageWith1OfMSans1Of1[p])
-                        statisticsThresholdPercentageWith1OfMSans1Of1[p] += 1;
+                    if (statisticsThresholdPercentageWith1OfMSans1Of1[threshold_percentage])
+                        statisticsThresholdPercentageWith1OfMSans1Of1[threshold_percentage] += 1;
                     else
-                        statisticsThresholdPercentageWith1OfMSans1Of1[p] = 1;
+                        statisticsThresholdPercentageWith1OfMSans1Of1[threshold_percentage] = 1;
                 }
 
                 if (statisticsNFTCount[item.owner_count])
