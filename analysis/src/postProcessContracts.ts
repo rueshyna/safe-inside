@@ -89,7 +89,7 @@ fs.readdir(tempFolderPath, (err, files) => {
                 else
                     statisticsThresholdPercentage[threshold_percentage] = 1;
 
-                if (item.owner_count !== 1 && item.storage.threshold !== "1") {
+                if (!(item.owner_count === 1 && item.storage.threshold === "1")) {
                     if (statisticsThresholdPercentageSans1Of1[threshold_percentage])
                         statisticsThresholdPercentageSans1Of1[threshold_percentage] += 1;
                     else
