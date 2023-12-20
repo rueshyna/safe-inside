@@ -38,6 +38,14 @@ const SortableTable: React.FC = () => {
 
   return (
     <div className="container mx-auto p-4">
+      <div className="w-full p-2">
+        <h1 className="text-2xl font-bold text-gray-800 text-center">
+          Safes
+        </h1>
+        <div className="text-sm text-gray-600 mt-2 mb-2 text-left">
+          Click address to copy
+        </div>
+      </div>
       <div className="mb-2">
         <select
           value={sortField}
@@ -66,9 +74,6 @@ const SortableTable: React.FC = () => {
           <option value="owner_count%desc">Owner Count - Desc</option>
           <option value="owner_count%asc">Owner Count - Asc</option>
         </select>
-      </div>
-      <div className="text-sm text-gray-600 mt-2 mb-2 text-left">
-        Click address to copy
       </div>
 
 

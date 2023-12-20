@@ -11,7 +11,7 @@ const App: React.FC = (): JSX.Element => {
         <Sidebar />
         <div className="flex-grow">
           <Routes>
-            <Route path="/chart" element={<Chart />} />
+            <Route path="/stats" element={<Chart />} />
             <Route path="/safes" element={<SortableTable />} />
             <Route path="/" element={<Chart />} />
             <Route path="*" element={<Navigate to="/" replace />} />

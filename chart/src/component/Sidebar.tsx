@@ -12,8 +12,8 @@ const Sidebar: React.FC = () => {
       </div>
       <ul>
         <li className="mb-2">
-          <Link to="/chart" className="text-blue-600 hover:text-blue-800">
-            Chart
+          <Link to="/stats" className="text-blue-600 hover:text-blue-800">
+            Stats
           </Link>
         </li>
         <li>

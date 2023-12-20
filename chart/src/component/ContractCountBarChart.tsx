@@ -15,6 +15,8 @@ interface Dataset {
 interface BarChartProps {
   labels: string[];
   datasets: Dataset[];
+  xAxisTitle?: string;
+  yAxisTitle?: string;
 }
 
 const defaultBackgroundColors = [
@@ -30,7 +32,7 @@ const defaultBackgroundColors = [
   'rgba(60, 179, 113, 0.6)'   // medium sea green
 ];
 
-const ContractCountBarChart: React.FC<BarChartProps> = ({ labels, datasets }) => {
+const ContractCountBarChart: React.FC<BarChartProps> = ({ labels, datasets, xAxisTitle, yAxisTitle }) => {
   datasets.forEach((dataset, index) => {
     dataset.backgroundColor = dataset.backgroundColor || defaultBackgroundColors[index % defaultBackgroundColors.length];
   });
@@ -40,14 +42,24 @@ const ContractCountBarChart: React.FC<BarChartProps> = ({ labels, datasets }) =>
     datasets,
   };
 
-  const options = {
+    const options = {
     scales: {
       y: {
         beginAtZero: true,
+        title: {
+          display: !!yAxisTitle,
+          text: yAxisTitle || '',
+          beginAtZero: true,
+        },
       },
+      x: {
+        title: {
+          display: !!xAxisTitle,
+          text: xAxisTitle || '',
+        },
+      }
     },
   };
-
   return <Bar data={chartData} options={options} />;
 };
 
