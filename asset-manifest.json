@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/rueshyna/safe-inside/static/css/main.c30216aa.css",
-    "main.js": "/rueshyna/safe-inside/static/js/main.fbfe031f.js",
-    "static/js/787.94c67523.chunk.js": "/rueshyna/safe-inside/static/js/787.94c67523.chunk.js",
-    "index.html": "/rueshyna/safe-inside/index.html",
-    "main.c30216aa.css.map": "/rueshyna/safe-inside/static/css/main.c30216aa.css.map",
-    "main.fbfe031f.js.map": "/rueshyna/safe-inside/static/js/main.fbfe031f.js.map",
-    "787.94c67523.chunk.js.map": "/rueshyna/safe-inside/static/js/787.94c67523.chunk.js.map"
+    "main.css": "/safe-inside/static/css/main.c30216aa.css",
+    "main.js": "/safe-inside/static/js/main.12c4b2cb.js",
+    "static/js/787.94c67523.chunk.js": "/safe-inside/static/js/787.94c67523.chunk.js",
+    "index.html": "/safe-inside/index.html",
+    "main.c30216aa.css.map": "/safe-inside/static/css/main.c30216aa.css.map",
+    "main.12c4b2cb.js.map": "/safe-inside/static/js/main.12c4b2cb.js.map",
+    "787.94c67523.chunk.js.map": "/safe-inside/static/js/787.94c67523.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c30216aa.css",
-    "static/js/main.fbfe031f.js"
+    "static/js/main.12c4b2cb.js"
   ]
 }
