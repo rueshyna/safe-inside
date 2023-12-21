@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/safe-inside/static/css/main.c30216aa.css",
-    "main.js": "/safe-inside/static/js/main.942f0d9d.js",
+    "main.js": "/safe-inside/static/js/main.775d8ac2.js",
     "static/js/787.94c67523.chunk.js": "/safe-inside/static/js/787.94c67523.chunk.js",
     "index.html": "/safe-inside/index.html",
     "main.c30216aa.css.map": "/safe-inside/static/css/main.c30216aa.css.map",
-    "main.942f0d9d.js.map": "/safe-inside/static/js/main.942f0d9d.js.map",
+    "main.775d8ac2.js.map": "/safe-inside/static/js/main.775d8ac2.js.map",
     "787.94c67523.chunk.js.map": "/safe-inside/static/js/787.94c67523.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c30216aa.css",
-    "static/js/main.942f0d9d.js"
+    "static/js/main.775d8ac2.js"
   ]
 }
