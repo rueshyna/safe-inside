@@ -18,7 +18,9 @@ jobs:
       with:
         node-version: '18'
 
-    - run: find .
+    - run: |
+        find .
+        pwd
 
     - name: Install dependencies
       run: npm install
